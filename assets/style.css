@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    border: 1px solid rgb(17, 16, 13);
+    width: 90%;
+    max-width: 450px;
+    background: #00bf8f;  
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  
+    background: linear-gradient(to right, #001510, #00bf8f); 
+}
