@@ -10,12 +10,11 @@ body{
 }
 
 .container{
-    height: 100vh;
     max-width: 450px;
-    min-width: 300px;
-    background: #ff3b93;
-    background: linear-gradient(143deg, rgba(255, 59, 147, 1) 42%, rgba(0, 75, 166, 1) 63%);
-    margin: 10px auto;
+    min-width: 400px;
+    background: #22C1C3;
+    background: linear-gradient(221deg, rgba(34, 193, 195, 1) 0%, rgba(255, 174, 0, 1) 100%);
+    margin: 2rem auto;
     padding: 40px 35px;
     border-radius: 20px;
     text-align: center;
@@ -39,15 +38,26 @@ body{
 
 .search .bt{
     border: none;
+    background-color: white;
     outline: none;
     border-radius: 50%;
     width: 60px;
     height: 60px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .search .bt img{
-    width: 1rem;
+    width: 20px;
+}
+
+.error{
+    display: none;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
 }
 
 .weather-icon{
@@ -85,4 +95,8 @@ body{
 
 .humidity, .wind{
     font-size: 28px;
+}
+
+.weather{
+    display: none;
 }
